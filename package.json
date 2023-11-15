@@ -1,0 +1,23 @@
+{
+    "name": "libre-fund",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "internal/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "FORCE_COLOR=1 turbo run build",
+        "dev": "FORCE_COLOR=1 turbo run dev",
+        "format": "FORCE_COLOR=1 prettier --write .",
+        "lint": "FORCE_COLOR=1 turbo run lint",
+        "start": "FORCE_COLOR=1 turbo run start"
+    },
+    "devDependencies": {
+        "eslint": "8.53.0",
+        "prettier": "3.1.0",
+        "prettier-config": "*",
+        "tsconfig": "*",
+        "turbo": "1.10.16"
+    }
+}
