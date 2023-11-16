@@ -1,5 +1,5 @@
 {
-    "name": "libre-fund",
+    "name": "foss",
     "private": true,
     "workspaces": [
         "apps/*",
@@ -14,6 +14,7 @@
         "start": "FORCE_COLOR=1 turbo run start"
     },
     "devDependencies": {
+        "diffscribe": "0.2.0",
         "eslint": "8.53.0",
         "prettier": "3.1.0",
         "prettier-config": "*",

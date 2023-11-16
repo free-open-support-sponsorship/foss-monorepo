@@ -2,8 +2,16 @@
     "name": "ui",
     "version": "0.0.0",
     "license": "MIT",
-    "main": "./index.tsx",
-    "types": "./index.tsx",
+    "exports": {
+        ".": {
+            "require": "./content.cjs",
+            "import": null
+        },
+        "./*": {
+            "import": "./components/*.tsx",
+            "require": null
+        }
+    },
     "scripts": {
         "lint": "eslint ."
     },
@@ -16,7 +24,9 @@
         "typescript": "5.2.2"
     },
     "peerDependencies": {
-        "clsx": "2.0.0",
-        "react": "18.2.0"
+        "tailwind-merge": ">=2.0.0",
+        "class-variance-authority": ">=0.7.0",
+        "react": ">=18.2.0",
+        "tailwindcss": ">=3.3.5"
     }
 }

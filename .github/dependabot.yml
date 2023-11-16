@@ -13,6 +13,7 @@ updates:
         patterns:
           - 'next'
           - '@next/eslint-plugin-next'
+          - '@next/bundle-analyzer'
       turbo:
         patterns:
           - 'turbo'
