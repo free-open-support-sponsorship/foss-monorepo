@@ -1,5 +1,6 @@
 const config = require('@vercel/style-guide/prettier');
 
+/** @type {import('prettier').Config} */
 module.exports = {
     ...config,
     tabWidth: 4,
@@ -13,4 +14,6 @@ module.exports = {
             },
         },
     ],
+    tailwindFunctions: ['cva'],
+    plugins: [...config.plugins, 'prettier-plugin-tailwindcss'],
 };
