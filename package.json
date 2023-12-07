@@ -19,6 +19,6 @@
         "prettier": "3.1.0",
         "prettier-config": "*",
         "tsconfig": "*",
-        "turbo": "1.10.16"
+        "turbo": "1.11.1"
     }
 }
