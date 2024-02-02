@@ -4,7 +4,7 @@
     "private": true,
     "license": "MIT",
     "devDependencies": {
-        "@vercel/style-guide": "5.1.0",
+        "@vercel/style-guide": "5.2.0",
         "prettier-plugin-tailwindcss": "0.5.7"
     }
 }
