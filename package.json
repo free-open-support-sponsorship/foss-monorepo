@@ -14,7 +14,7 @@
         "start": "FORCE_COLOR=1 turbo run start"
     },
     "devDependencies": {
-        "diffscribe": "0.2.1",
+        "diffscribe": "0.2.3",
         "eslint": "8.54.0",
         "prettier": "3.1.0",
         "prettier-config": "*",
